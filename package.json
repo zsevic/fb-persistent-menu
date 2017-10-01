@@ -1,0 +1,20 @@
+{
+  "name": "fb-persistent-menu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "keywords": [],
+  "author": "",
+  "bin": {
+    "fb-persistent-menu": "./bin/index.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "facebook-node": "0.0.3",
+    "request-promise": "^4.2.2",
+    "yargs": "^9.0.1"
+  }
+}
