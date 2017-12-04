@@ -29,17 +29,17 @@ CLI tool that adds or removes "Persistent menu" (on Messenger) from Facebook pag
 ### Demo
 ```
 fb-persistent-menu --token <PAGE_ACCESS_TOKEN> --settings '{
-    "persistent_menu":[{
+    "persistent_menu": [{
         "locale": "default",
         "call_to_actions": [{
             "type": "postback",
             "title": "Test",
             "payload": "TEST_PAYLOAD"
         },{
-        "type": "web_url",
-        "title": "Latest News",
-        "url": "https://news.ycombinator.com/",
-        "webview_height_ratio": "full"
+            "type": "web_url",
+            "title": "Latest News",
+            "url": "https://news.ycombinator.com/",
+            "webview_height_ratio": "full"
         }]
     }]
 }'
