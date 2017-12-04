@@ -6,7 +6,8 @@ const lib = require('../lib')
 if (argv.token) {
   if (argv.settings) {
     try {
-      let data = JSON.parse(argv.settings)
+      let json = JSON.parse(JSON.stringify(argv.settings.replace(/(\r\n|\n|\r| )/gm, '')))
+      let data = JSON.parse(json)
       lib.addPersistentMenu(argv.token, data)
     } catch (e) {
       lib.handleError(`JSON is not well formatted`)
