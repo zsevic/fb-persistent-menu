@@ -4,7 +4,7 @@ CLI tool that adds or removes "Persistent menu" (on Messenger) from Facebook pag
 
 ### Requirements
 * The person must be running Messenger v106 or above on iOS or Android.
-* The Facebook Page the Messenger bot is subscribe to must be published.
+* The Facebook Page the Messenger bot is subscribed to must be published.
 * The Messenger bot must be set to "public" in the app settings.
 * The Messenger bot must have the pages_messaging permission.
 
