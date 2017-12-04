@@ -1,20 +1,27 @@
 {
   "name": "fb-persistent-menu",
   "version": "1.0.0",
-  "description": "",
-  "main": "bin/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
-  },
-  "keywords": [],
-  "author": "",
+  "description": "CLI tool that adds or removes \"Persistent menu\" (on Messenger) for Facebook page",
+  "main": "./bin/index.js",
   "bin": {
     "fb-persistent-menu": "./bin/index.js"
   },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zsevic/fb-persistent-menu.git"
+  },
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "dependencies": {
+    "chalk": "^2.3.0",
     "facebook-node": "0.0.3",
-    "request-promise": "^4.2.2",
-    "yargs": "^9.0.1"
+    "yargs": "^10.0.3"
   }
 }
