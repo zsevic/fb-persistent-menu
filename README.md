@@ -7,11 +7,6 @@ CLI tool that adds or removes "Persistent menu" (on Messenger) from Facebook pag
 * The Facebook Page the Messenger bot is subscribe to must be published.
 * The Messenger bot must be set to "public" in the app settings.
 * The Messenger bot must have the pages_messaging permission.
-* "Get started" button must be set
-```
-npm install -g fb-get-started-button
-fb-get-started-button add <PAGE_ACCESS_TOKEN>
-```
 
 
 ### Installation
