@@ -43,4 +43,4 @@ fb-persistent-menu --token <PAGE_ACCESS_TOKEN> --settings '{
     }]
 }'
 ```
-![addedPersistentMenu](https://github.com/zsevic/fb-persistent-menu/blob/master/images/add.png)
+![addedPersistentMenu](./images/add.png)
