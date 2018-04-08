@@ -1,6 +1,6 @@
 {
   "name": "fb-persistent-menu",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "CLI tool that adds or removes \"Persistent menu\" (on Messenger) for Facebook page",
   "main": "./bin/index.js",
   "bin": {
